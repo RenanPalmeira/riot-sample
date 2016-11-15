@@ -1,0 +1,22 @@
+{
+  "name": "riot-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "riot": "riot",
+    "dev": "webpack-dev-server --progress --colors -d --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "riot-cli": "^2.6.2"
+  },
+  "devDependencies": {
+    "riot": "^2.6.7",
+    "riotjs-loader": "^3.0.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

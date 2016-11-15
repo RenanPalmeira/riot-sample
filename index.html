@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Example with Riot</title>
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
+        <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+    </head>
+    <body>
+        <fl-menu>
+            <fl-search-box name="Pesquisa"></fl-search-box>
+        </fl-menu>
+
+        <br/>
+        <br/>
+
+        <fl-table>
+            <thead class="thead-inverse">
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                </tr>
+            </thead>
+            <tbody>
+                <fl-list></fl-list>
+            </tbody>
+        </fl-table>
+
+        <fl-list-users></fl-list-users>
+
+    </body>
+    <script src="/build/bundle.js" charset="utf-8"></script>
+</html>
